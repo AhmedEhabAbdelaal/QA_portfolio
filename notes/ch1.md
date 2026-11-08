@@ -12,7 +12,7 @@
 
 - Root cause: fundamental reason for the occurance of a certain problem. Root cause analysis is performed when a failure occures or a defect is identified  
 
-- Stakeholders: needs, expectations, requirements, willingness to cooperate, etc.
+- Stakeholders:any person or group with an interest in the system, such as users, customers, developers, business owners and regulators. what they have (needs, expectations, requirements, willingness to cooperate, etc.)
 
 - Risk register: a list of risks together with risk likelihood, risk impact and information about risk mitigation
 
@@ -28,7 +28,7 @@ needs in its operational environment.
 -  Subsequent regression testing can also 
 be performed, to check whether the fixes are causing failures in other parts of the test object
 
-- if a Defect in a code is excuted it leads to failure 
+- if a Defect in a code is excuted it may lead to one. Some defects always fail, some fail only in special situations, and some never fail. 
 
 - Some defects will always result in a failure if executed, while others will only result in a failure in specific 
 circumstances, and some may never result in a failure. 
@@ -58,7 +58,7 @@ this failure (defects), analyzing these causes, and eliminating them.
 
 ## Testing vs QA:
 - testing is a product-orianted corrective apporach that foucs on the activites suppoorting the acheivment of appropriate levels of quality.
-- QA is a process-orianted that foucses on the implementation and improvement of processes. it insures that a process is followed correctly and it will generate a good product.  QA applies to both the development and testing processes.
+- QA is a process-orianted preventive approach that foucses on the implementation and improvement of processes. it insures that a process is followed correctly and it will generate a good product.  QA applies to both the development and testing processes.
 - Test results are used by QA and testing. In testing they are used to fix defects, while in QA they provide 
 feedback on how well the development and test processes are performing. 
 
