@@ -1,4 +1,7 @@
 # Chapter 1 notes
+• K1: Remember 
+• K2: Understand 
+• K3: Apply 
 ## Read more:
 - static vs dynamic testing 
 - Pareto princible
