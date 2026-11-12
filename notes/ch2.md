@@ -143,5 +143,24 @@
     2. upgrades or migration of the current operational env.
     3. Retirment to test the data archiving work properly if there is data retention needed after the system reirement 
 
-    
 
+
+## Levels (what part am I testing?)
+| Level | My definition | Example |
+|---|---|---|
+| Component |it tests a certain fucntion behavior(if it behaves as it should) |on saucedemo --> when adding a certain item the cart should add 1 or when deleting a certain item it shoudl decrement 1 |
+| Component integration | it tests how fucntions behave together |on saucedemo --> when adding an item to the cart (fucntion 1) the total value should reflect its price(function 2) |
+| System |it test how the whole system works | On saucedemo: login, add to cart, checkout |
+| System integration |it tests how the system under test behave with other system | On saucedemo: the whole website behavior with the payment service for example |
+| Acceptance |it tests if the whole system follow the requirments in the user's perspective | |
+
+## Types (what am I checking?)
+| Type | My definition | Example on saucedemo |
+|---|---|---|
+| Functional |it test how the fucntion behave (technical testing) |On saucedemo: if i am testing the the total value fcntion(how it incerement, decrement when i am adding/removing an item) |
+| Non-functional |it tests the flow/transition of a certian fucntion () |On saucedemo: when i click the checkout how fast does this fucntion work and does it transition the user to the next step corectly or not |
+
+| Black-box |it is a documentation based testing, to test against the documentation and required features |On saucedemo: the whole website is a balckbox testing |
+| White-box |it is a source code based testing that tests the system against the source code, system arch. | (no example, I can't see the code) |
+| Confirmation |it is a test that certain test is confirmed to pass as it should| |
+| Regression |it is a type of testing that is held when every change or modification happend to confirm that this chnage didn't affect any other dependant system components | |
