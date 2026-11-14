@@ -34,7 +34,11 @@ be performed, to check whether the fixes are causing failures in other parts of 
 - if a Defect in a code is excuted it may lead to one. Some defects always fail, some fail only in special situations, and some never fail. 
 
 - Some defects will always result in a failure if executed, while others will only result in a failure in specific 
-circumstances, and some may never result in a failure. 
+circumstances, and some may never result in a failure.
+
+- pesticide paradox: The same tests repeated over time stop finding new defects 
+
+- traceability materix: Link test conditions and test cases back to their basis (requirments)
 
 ## static vs dynamic testing :
     dynamic testing envolvs the execution of SW while static doesn't
@@ -114,3 +118,30 @@ used, degree of test automation, required level of coverage, level of detail of 
 The main benefit of independence of testing is that independent testers are likely to recognize different kinds of failures and defects compared to developers because of their different backgrounds, technical perspectives, and biases. Moreover, an independent tester can verify, challenge, or disprove assumptions made by stakeholders during specification and implementation of the system. For most projects, it 
 is usually best to carry out testing with multiple levels of independence (e.g., developers performing component testing and component integration testing, test team performing system and system 
 integration testing, and business representatives performing acceptance testing).
+
+
+
+## Mock Questions on Ch1 
+
+1. B Correct
+2. C Correct
+3. B Correct
+4. B Correct
+5. B Correct
+6. B Correct
+7. B Correct
+8. C Correct
+9. B Correct
+10. B Wrong
+11. D Correct
+12. B Correct
+13. A Correct
+14. C Correct
+15. D Wrong 
+16. C Correct
+17. B Correct
+18. B Correct
+19. B Correct
+20. B Correct
+
+* Mock exam grade: 18/20

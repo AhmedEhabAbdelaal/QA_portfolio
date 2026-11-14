@@ -159,8 +159,33 @@
 |---|---|---|
 | Functional |it test how the fucntion behave (technical testing) |On saucedemo: if i am testing the the total value fcntion(how it incerement, decrement when i am adding/removing an item) |
 | Non-functional |it tests the flow/transition of a certian fucntion () |On saucedemo: when i click the checkout how fast does this fucntion work and does it transition the user to the next step corectly or not |
-
-| Black-box |it is a documentation based testing, to test against the documentation and required features |On saucedemo: the whole website is a balckbox testing |
+| Black-box |it is a documentation based testing, to test against the documentation and required features, you test the behavior without looking at the code |On saucedemo: the whole website is a balckbox testing |
 | White-box |it is a source code based testing that tests the system against the source code, system arch. | (no example, I can't see the code) |
 | Confirmation |it is a test that certain test is confirmed to pass as it should| |
-| Regression |it is a type of testing that is held when every change or modification happend to confirm that this chnage didn't affect any other dependant system components | |
+| Regression |it is a type of testing that is held when every change or modification happend to confirm that this chnage didn't affect any other dependant system components |after the fix, rerun login, cart and checkout to see that nothing else broke. |
+
+
+## Mock Questions on Ch2
+
+1. B Correct
+2. C Wrong
+3. C Correct
+4. A Correct
+5. B Correct
+6. A Wrong
+7. B Correct
+8. B Correct
+9. A Correct
+10. B Correct
+11. A wrong 
+12. A Correct
+13. A Wrong
+14. B Correct
+15. C Correct
+16. A Correct
+17. B Correct
+18. A Correct
+19. B Correct
+20. D Wrong
+
+* Mock exam grade: 15/20

@@ -1,6 +1,6 @@
 ## Scrum defintion
 
-* A framework that help teams/organizations to generate solutions for complex problems. It is a philosphy, theory on how to acheive a certain goal.Scrum shows the efficency of the current managment, enviroment & work techniques, so if there is a room for improvement it will be held.
+* A framework that help teams/organizations to generate solutions for complex problems. It is a lightweight framework, theory/philosophy on how to acheive a certain goal and helps the team generate value.Scrum shows the efficency of the current managment, enviroment & work techniques, so if there is a room for improvement it will be held.
 
 
 ## Scrum theory 
@@ -36,18 +36,17 @@ designed to provoke change.
 
 
 ## Developers 
-* They are the people in the scrum team that garauntes the increment in the value of each Sprint
+* They are the people in the scrum team that are commited to create usable increment in each Sprint
 
 ## Product Owner 
 * This person communicates clearly the product needs and the requirments in order the scrum team to work on it transperantly which result in maximizing the product value 
 
 
 ## Scrum Master 
-* this person communicates the guidelines of the Scrum concept across his team members and insure everyone is maxmizing his output whoever the role of this person in the team (product owner or developer)
+* this person communicates the guidelines of the Scrum concept across his team members and insure everyone is maxmizing their output whoever the role of this person in the team (product owner or developer)
 
 ## Scrum Events 
 * Sprint is the proces where the idea truned into value 
-
 
 
 
