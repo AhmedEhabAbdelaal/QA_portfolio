@@ -1,3 +1,9 @@
+## Scrum Guide
+
+## Read more
+1.  burn-downs, burn-ups, & cumulative flows.
+
+
 ## Scrum defintion
 
 * A framework that help teams/organizations to generate solutions for complex problems. It is a lightweight framework, theory/philosophy on how to acheive a certain goal and helps the team generate value.Scrum shows the efficency of the current managment, enviroment & work techniques, so if there is a room for improvement it will be held.
@@ -46,8 +52,13 @@ designed to provoke change.
 * this person communicates the guidelines of the Scrum concept across his team members and insure everyone is maxmizing their output whoever the role of this person in the team (product owner or developer)
 
 ## Scrum Events 
-* Sprint is the proces where the idea truned into value 
+* Sprint is the proces where the idea truned into value, it has a fixed length events of one month or less to keep consistency
 
+* during the sprint, No changes will be executed if it will put the sprint goal in danger, Quality doesn't decrease and a clarified negotiation must take place with the product owner if the scope is changed since there are more things is leraned from the Sprint
+
+* Long Sprints are invalid ( since with longer time span between each one may increase complexity or deviation from the goal ), so short span Sprints (month or less) are best to generate more learning cycles and limit risk to waste time and resources 
+
+## Sprint Planning 
 
 
 
