@@ -145,3 +145,7 @@ integration testing, and business representatives performing acceptance testing)
 20. B Correct
 
 * Mock exam grade: 18/20
+
+## My mistakes 
+
+10. 

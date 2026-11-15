@@ -152,17 +152,49 @@
 | Component integration | it tests how fucntions behave together |on saucedemo --> when adding an item to the cart (fucntion 1) the total value should reflect its price(function 2) |
 | System |it test how the whole system works | On saucedemo: login, add to cart, checkout |
 | System integration |it tests how the system under test behave with other system | On saucedemo: the whole website behavior with the payment service for example |
-| Acceptance |it tests if the whole system follow the requirments in the user's perspective | |
+| Acceptance |it tests if the whole system follow the requirments in the user's perspective |the shop owner’s staff try real buying scenarios on saucedemo before go-live (UAT) |
 
 ## Types (what am I checking?)
 | Type | My definition | Example on saucedemo |
 |---|---|---|
-| Functional |it test how the fucntion behave (technical testing) |On saucedemo: if i am testing the the total value fcntion(how it incerement, decrement when i am adding/removing an item) |
-| Non-functional |it tests the flow/transition of a certian fucntion () |On saucedemo: when i click the checkout how fast does this fucntion work and does it transition the user to the next step corectly or not |
+| Functional |it test how the fucntion should do based on the requirments|On saucedemo: if i am testing the the total value fcntion(how it incerement, decrement when i am adding/removing an item) |
+| Non-functional |it tests how the system works(speed, usability, security, etc...) |On saucedemo: when i click the checkout how fast does this fucntion work(speed), does the site work on chrome and Edge the same way or not (compatibility) |
 | Black-box |it is a documentation based testing, to test against the documentation and required features, you test the behavior without looking at the code |On saucedemo: the whole website is a balckbox testing |
 | White-box |it is a source code based testing that tests the system against the source code, system arch. | (no example, I can't see the code) |
-| Confirmation |it is a test that certain test is confirmed to pass as it should| |
+| Confirmation |it is a test that certain test is confirmed to pass after fixing it(it was failling before) |On Saucedemo: problem_user shows a wrong image, so after fixing it the same test must re-excuted to confirm it passes |
 | Regression |it is a type of testing that is held when every change or modification happend to confirm that this chnage didn't affect any other dependant system components |after the fix, rerun login, cart and checkout to see that nothing else broke. |
+
+
+
+## Smoke Vs Sanity Vs Regression
+- Smoke Testing:
+    * It's also refered to by build verification testing (BVT), it's a quick check whether the most important parts of a new build work at all such as (deps, config erros, failed database connections). It's purpose is to validate the satibility of the build at a high level so the team doesn't waste time on a broken build, it verify that the app starts correctly and shows the primary flows and transitions of the system, catch obvious integration failures early, decides whether to proceed with regression, integration and user acceptance tests or not.
+    * Key Characteristics of Smoke Testing:
+        - Scope: Broad 
+        - Depth: Shllow just to confirm major features doesn't fail
+        - size of test suite: Small
+        - Frequancy: Every new build or integration
+        - Execution style: most of the time automated
+    * Common scenarios:
+        - After every commit or pull request is mergerd into the main branch 
+        - After creating a new build
+        - Before regression testing cycle
+        - Before deploying a release 
+        * for Java-based API service smoke test might validate:
+            -  The service start successfully
+            - Key API endpoints return expected status code
+            - Basic database queries execute without error
+    * Automation Tools & automated smoke testing:
+        - writinng smoke tests in tool like Selenium, Cypres, Playwright or Rest clients.
+        - Triggering smoke suites automatically form CI tool such as Jenkins, GitHub Actions or Harness CI.
+
+- Sanity Testing:
+    * It's sometimes called a sanity check, it is performed after a bug fix, patch, or a small enhancment (it may feel like confirmation testing but they differ in the target or the question that the test should answer, also the difinition of sanitytesting differs). The purpose of this type of testing is to check if the reported bug is fixed or the modified feature works and the related nerby functionality still behaves as expected. Sanity testing is helpful late in the release cycle when the time is tight and u can't check the whole system using regression testing, for hotfixes that only needs to be confirmed that the targted area behave correctly 
+    * Key Characteristics of Sanity testing:
+        - Scope: Narrow, limited to modules that is touched by recent changes
+        - Depth: Deeper than smoke (within small targeted area)
+        
+
 
 
 ## Mock Questions on Ch2
@@ -189,3 +221,5 @@
 20. D Wrong
 
 * Mock exam grade: 15/20
+
+## My mistakes 
