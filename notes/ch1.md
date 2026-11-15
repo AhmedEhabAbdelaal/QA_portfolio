@@ -3,10 +3,15 @@
 • K2: Understand 
 • K3: Apply 
 ## Read more:
-- static vs dynamic testing 
-- Pareto princible
-- verfication vs validation
-- Test Basis & Testware
+- Pareto princible: states that 80% of the effects come from 20% of causes or inputs, Defect clustering (Roughly 80% of software bugs are found in 20% of the program modules or components.)
+
+- verification vs validation: 
+    - verification: insures that you are building the product right, uses static testing and insures the code against the requirments.
+    - validation: insures that you are the building the right product, uses dynamic testing to see even if the code matches the requirments and specs, the final SW do what the user wnats.
+
+- Test Basis & Testware:
+    -  Test Basis: is the body of information and documentation used to determine what the system should do, and from which test cases and conditions are derived.
+    - Testware: It defines the how testing is performed and documented.It contains all the work products, artifacts, utilities, and application software created during the testing lifecycle to plan, design, execute, and report on testing.
 
 ## keywords:
 - Defect (faults, bugs): cause of the failure , can be removed by debugging - a non testing activity 
@@ -41,7 +46,7 @@ circumstances, and some may never result in a failure.
 - traceability materix: Link test conditions and test cases back to their basis (requirments)
 
 ## static vs dynamic testing :
-    dynamic testing envolvs the execution of SW while static doesn't
+    dynamic testing envolvs the execution of SW and observing runtime behavior while static testing evaluates SW artifacts like code, requirments and desing without running the program
 
 
 
@@ -92,7 +97,7 @@ feedback on how well the development and test processes are performing.
     - There is no single universally applicable approach to testing. Testing is done differently in different contexts
 
 7. Absence-of-defects misconception.
-    - system verification alone can't insure that the system will meet the user's req and expectation therfore beside verfication validation should also be carried out 
+    - system verification alone can't insure that the system will meet the user's req and expectation therfore beside verification validation should also be carried out 
 
 ## Test Activities and Tasks:
 

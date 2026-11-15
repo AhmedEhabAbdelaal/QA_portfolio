@@ -4,12 +4,19 @@
 • K3: Apply 
 
 ## Read more:
-- waterfall model --> sequential development model
-- V-model --> sequential development model
-- spiral model -->iterative development model
-- incremental development models
+- waterfall model (sequential development model):
+    * It's a SDLC methodology where each phase must finish before the next one begins (Requriments --> System design --> implementation --> Testing and veification --> Deployment --> maintenance)
+
+- V-model (sequential development model):
+    * It's a SDLC methodology where each phase is paired with a testing phase (req analysis with Acceptance testing, system design with system testing, Arch analysis with integration testing, module design with unit testing )
+
+- spiral model (iterative development model):
+    * it's a risk-driven SDLC, it combines the traditional waterfall model but with iterative feedback (looping everytime from planning to customer reviews every iteration), it is best fit for high risk and complex projects with evolving or unclear requirments.
+
+- incremental development models:
+    * a software and product development approach where a system is broken down into small, manageable pieces called increments. Each increment goes through its own complete development cycle—including requirements analysis, design, development, and testing
+    
 - Agile SW dev
-- regression testing 
 - TDD vs ATDD (no difference ?)
 - Given/When/Then format
 - CI/CD
@@ -17,7 +24,7 @@
 - integration strategy like bottom-up, top-down or big-bang
 ## Keywords:
 
-- acceptance testing:
+- acceptance testing
 - black-box testing 
 - component integration testing 
 - component testing 
