@@ -53,7 +53,7 @@ circumstances, and some may never result in a failure.
 ## Test Objectives: 
 - Evaluate requirements, user stories, designs and code
 - causing failure and finding defects
-- Make thew required coverage for a test object
+- Make the required coverage for a test object
 - verify whether specified req. have been fulfilled and a test      object  complies with legal and regulatory req.
 
 ** Test objectives can vary, depending upon the context, which includes the work product being tested, the 
@@ -69,7 +69,7 @@ the software (dynamic testing) or can directly find defects in the test object (
 this failure (defects), analyzing these causes, and eliminating them.
 
 ## Testing vs QA:
-- testing is a product-oriented corrective approach that focus on the activates supporting the achievement of appropriate levels of quality.
+- testing is a product-oriented corrective approach that focus on the activities supporting the achievement of appropriate levels of quality.
 - QA is a process-oriented preventive approach that focuses on the implementation and improvement of processes. it ensures that a process is followed correctly and it will generate a good product.  QA applies to both the development and testing processes.
 - Test results are used by QA and testing. In testing they are used to fix defects, while in QA they provide 
 feedback on how well the development and test processes are performing. 
@@ -97,7 +97,7 @@ feedback on how well the development and test processes are performing.
     - There is no single universally applicable approach to testing. Testing is done differently in different contexts
 
 7. Absence-of-defects misconception.
-    - system verification alone can't insure that the system will meet the user's req and expectation therefore beside verification validation should also be carried out 
+    - system verification alone can't ensure that the system will meet the user's req and expectation therefore beside verification validation should also be carried out 
 
 ## Test Activities and Tasks:
 

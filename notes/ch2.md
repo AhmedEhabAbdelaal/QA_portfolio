@@ -61,7 +61,7 @@
 5. Role and responsibilities of a tester 
 
 ## Software Development Lifecycle and Good Testing Practices:
-* no matter the SDLC model there is a corresponding testing activity to insure quality control no matter what, test analysis and design phase begins in parallel with SDLC development phase 
+* no matter the SDLC model there is a corresponding testing activity to ensure quality control no matter what, test analysis and design phase begins in parallel with SDLC development phase 
 
 ## Shift left
 * it means early testing even before code implementation but it doesn't mean there will be no testing in the end 
@@ -99,11 +99,11 @@
 
         - UAT (user acceptance testing)
 
-        - Operational: is a non-functional software testing phase conducted late in the Software Development Life Cycle
+        - Operational: is a non-functional software testing phase conducted late in the Software Development Life Cycle it checks backup and restore, disaster recovery, security operations.
 
-        - contractual: a formal phase of software testing that verifies whether a developed system satisfies all specific terms, functional features, performance benchmarks, and legal conditions outlined in a binding contract between a client and a vendor. 
+        - contractual: a formal phase of software testing that verifies whether a developed system satisfies all specific terms, functional features, performance benchmarks, and legal conditions.
 
-        - regulatory: a final verification phase in software development that ensures an application complies with all applicable government laws, legal frameworks, safety standards, and industry-specific regulations
+        - regulatory: a final verification phase in software development that ensures an application complies with all applicable government laws, legal frameworks, safety standards, and industry-specific regulations.
 
         - Alpha and beta: Alpha is done by people in the company while beta by the user or customer 
 
@@ -245,8 +245,8 @@
 
 6. i chose A, it's wrong because testing take place near the end of the waterfall SDLC
 
-11. i chose A, it's wrong because system testing checks the behavior of a completer integrated system end to end while components testing checks small units in isolation
+11. i chose A, it's wrong because system testing checks the behavior of a complete integrated system end to end while components testing checks small units in isolation
 
-13. i chose A, i didn't know what was the (OAT)
+13. i chose A, i didn't know what was the (OAT) --> OAT is done as a non-functional testing that is done late in the SDLC
 
-20. i chose D, i didn't know that alpha and beta was a form of (AT)
+20. i chose D, i didn't know that alpha and beta was a form of (AT) --> alpha is acceptance testing by the company while beta is acceptance testing by the user

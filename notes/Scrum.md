@@ -49,7 +49,7 @@ designed to provoke change.
 
 
 ## Scrum Master 
-* this person communicates the guidelines of the Scrum concept across his team members and insure everyone is maximizing their output whoever the role of this person in the team (product owner or developer)
+* this person communicates the guidelines of the Scrum concept across his team members and ensure everyone is maximizing their output whoever the role of this person in the team (product owner or developer)
 
 ## Scrum Events 
 * Sprint is the process where the idea turned into value, it has a fixed length events of one month or less to keep consistency
