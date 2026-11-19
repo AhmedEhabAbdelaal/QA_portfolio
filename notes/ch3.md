@@ -27,19 +27,19 @@ maybe with the help of tools (static analysis)
 
 - static testing can be applied in both verification and validation
 
-- static analysis can identify problems prior to dynamic testing while taking less effort since no test cases or tools are typically used.
+- static analysis can identify problems prior to dynamic testing while taking less effort since no test cases is typically used.
 
-- static analysis is often included withing CI frameworks
+- static analysis is often included within CI frameworks
 
 - while static analysis is used to detect specific code defects it is also used to evaluate maintainability and security. 
 
-- spelling checkers and readability tolls are sued along with other tools of static analysis tools
+- spelling checkers and readability tolls are used along with other tools of static analysis tools
 
 ## Work Products Examinable by Static Testing
 
 - Any work product that is readable and understood can be subjected to static testing. However, work products need a structure to test them against.
 
-- there are some Work products that are not appropriate for static testing that are not readable by humans  and can't by analyzed by tools(due to legal reasons)
+- there are some Work products that are not appropriate for static testing that are not readable by humans  and can't be analyzed by tools(due to legal reasons)
 
 
 ## Value of static testing 
@@ -54,7 +54,7 @@ maybe with the help of tools (static analysis)
 
 - they both complement each other, they both share the same objective but also differ in some ways:
 
-    - they both can detect defects by some types of defect can only be detected using one of them while the other can't
+    - they both can detect defects but some types of defect can only be detected using one of them while the other can't
 
     - static testing finds defect directly, while dynamic testing causes failures which leads to the defect causing it .
 
@@ -71,7 +71,7 @@ maybe with the help of tools (static analysis)
 
     - deviations from standards (lack of adherence to naming conventions in coding standards)
 
-    - incorrect interface specifications (mismatched number, type or oder of parameters)
+    - incorrect interface specifications (mismatched number, type or order of parameters)
 
     - specific types of security vulnerabilities (buffer overflows)
 
@@ -98,9 +98,9 @@ maybe with the help of tools (static analysis)
     - fixing and reporting: for every defect, a defect report is created so that the corrective actions can be followed up until the exit criteria is reached so the work product maybe accepted 
 
 ## Roles and Responsibilities in Reviews
-- manager: decides what to be reviews and provide the needed resources
+- manager: decides what to be reviewed and provide the needed resources
 - author: creates and fixes the product under review
-- moderator: enures the running of review meetings and time management
+- moderator: ensures the running of review meetings and time management
 
 
 

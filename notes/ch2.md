@@ -70,7 +70,7 @@
 ## Retrospectives(revision sessions) and process improvement 
 * it's a revision and discussion session where testers and most of team members (dev team and arches) talk about what has been done and how to improve or change anything in it .
 
-* this session benefits the process in increasing testing effectiveness , team harmony specially between dev team and testing team 
+* this session benefits the process in increasing testing effectiveness , team harmony especially between dev team and testing team 
 
 
 ## Test level and test types 
@@ -203,8 +203,8 @@
             - Key API endpoints return expected status code
             - Basic database queries execute without error
     * Automation Tools & automated smoke testing:
-        - writing smoke tests in tool like Selenium, Cypres, Playwright or Rest clients.
-        - Triggering smoke suites automatically form CI tool such as Jenkins, GitHub Actions or Harness CI.
+        - writing smoke tests in tool like Selenium, Cypress, Playwright or Rest clients.
+        - Triggering smoke suites automatically from CI tool such as Jenkins, GitHub Actions or Harness CI.
 
 - Sanity Testing:
     * It's sometimes called a sanity check, it is performed after a bug fix, patch, or a small enhancement (it may feel like confirmation testing but they differ in the target or the question that the test should answer, also the definition of sanity testing differs). The purpose of this type of testing is to check if the reported bug is fixed or the modified feature works and the related nearby functionality still behaves as expected. Sanity testing is helpful late in the release cycle when the time is tight and u can't check the whole system using regression testing, for hotfix that only needs to be confirmed that the targeted area behave correctly 
